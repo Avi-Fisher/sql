@@ -36,5 +36,27 @@
 
 19. SELECT `תוצאה מירבית ב% ביחס לסף הבריאות` FROM `cell_towers`
 
-20. 
+20.  SELECT * FROM `cell_towers` WHERE `חברה` LIKE "פלאפון";
+
+21. SELECT * FROM `cell_towers` WHERE `סוג אתר` LIKE "תורן קרקעי";
+
+22. SELECT * FROM `cell_towers` WHERE `היתר קרינה` LIKE "יש היתר";
+
+23. SELECT * FROM `cell_towers` WHERE `היתר קרינה` LIKE "אין היתר";
+
+24. SELECT * FROM `cell_towers` WHERE `טכנולוגיית שידור` like "%5%";
+
+25. SELECT * FROM `cell_towers` WHERE `עיר` like "תל%"
+
+26. SELECT * FROM `cell_towers` WHERE `תאור נקודה בה התקבלה תוצאה מירבית` > 50 
+
+27. SELECT * FROM `cell_towers` WHERE `תאור נקודה בה התקבלה תוצאה מירבית` < 5 
+
+28. SELECT * FROM `cell_towers` WHERE `תוצאה מירבית ב% ביחס לסף הבריאות` > 10 
+
+29. SELECT * FROM `cell_towers` WHERE `תוצאה מירבית ב% ביחס לסף הבריאות` = 0 
+
+30.  SELECT * FROM `cell_towers` WHERE `חברה`LIKE "פלאפון" and `עיר` LIKE "תל אביב" 
+
+31. SELECT * FROM `cell_towers` WHERE `סוג אתר` != "תורן קרקע" 
 
