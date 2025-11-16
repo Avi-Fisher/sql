@@ -15,3 +15,26 @@
 8. SELECT   `רשות מקומית`  FROM `cell_towers` WHERE 1;
 
 9.SELECT   `חברה` ,ID FROM `cell_towers` WHERE 1;
+
+10. SELECT   `עוצמה מרבית תיאורטית בµW לסמר` ,`עיר` FROM `cell_towers` WHERE 1;
+
+11. SELECT `תוצאה מירבית ב% ביחס לסף הבריאות` , `עיר` FROM `cell_towers`;
+
+12. SELECT * FROM `cell_towers` WHERE 1
+
+13. SELECT `ID`, `כתובת האתר` ,`סוג אתר`  FROM `cell_towers`
+
+14. SELECT `חברה` `תאריך היתר הקמה` FROM `cell_towers`
+
+15. SELECT `חברה` , `בדיקה תקופתית אחרונה` FROM `cell_towers`
+
+16. SELECT `עיר` , `רשות מקומית` FROM `cell_towers`
+
+17. SELECT `טכנולוגיית שידור` , `סוג אתר` FROM `cell_towers`
+
+18. SELECT MAX( `עוצמה מרבית תיאורטית בµW לסמר`) FROM `cell_towers`
+
+19. SELECT `תוצאה מירבית ב% ביחס לסף הבריאות` FROM `cell_towers`
+
+20. 
+
