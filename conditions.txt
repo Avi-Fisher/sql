@@ -16,4 +16,52 @@
 
 9. SELECT * from payments WHERE paymentdate in ("2005-06-01","2004-10-19")  
 
-10. 
+10. SELECT * FROM `products` WHERE quantityInStock > 1000 and buyPrice < 50 
+
+11. SELECT * FROM `products` WHERE productVendor in ("Min Lin Diecast","exoto designs") 
+
+12.SELECT * FROM `products` WHERE msrp > 100 and buyPrice < 50 
+
+13.SELECT * FROM orders WHERE status in ("Cancelled","On Hold")
+
+14. SELECT * FROM orders WHERE orderdate > "2005,01,01" and status like "Shipped"
+
+
+
+
+part B:
+
+1 . 
+
+
+
+
+'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
