@@ -1,0 +1,17 @@
+1.
+
+2.  SELECT `סוג אתר`,`כתובת האתר` FROM `cell_towers` 
+
+3. SELECT DISTINCT `חברה`  FROM `cell_towers` WHERE 1
+
+4. SELECT DISTINCT `עיר`  FROM `cell_towers` WHERE 1;
+
+5. SELECT  `סוג אתר`  FROM `cell_towers` WHERE 1;
+
+6.SELECT  `טכנולוגיית שידור`  FROM `cell_towers` WHERE 1;
+
+7. SELECT  `היתר קרינה`  FROM `cell_towers` WHERE 1;
+
+8. SELECT   `רשות מקומית`  FROM `cell_towers` WHERE 1;
+
+9.SELECT   `חברה` ,ID FROM `cell_towers` WHERE 1;
