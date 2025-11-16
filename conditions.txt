@@ -1,0 +1,19 @@
+1. SELECT * from customers WHERE country like "usa"
+
+2.SELECT * from customers WHERE country like "france" or country like "germany"
+
+3. SELECT * from customers WHERE state like "ca"
+
+4. SELECT * from customers WHERE customerName like "s%" or customerName like "t%" 
+
+5.SELECT * from productlines WHERE productline like "classic cars"; 
+
+6.SELECT * from employees WHERE jobtitle like "sales rep"  
+
+7. SELECT * from employees WHERE officecode  in (1,4)  
+
+8. SELECT * from payments WHERE amount > 10000  
+
+9. SELECT * from payments WHERE paymentdate in ("2005-06-01","2004-10-19")  
+
+10. 
