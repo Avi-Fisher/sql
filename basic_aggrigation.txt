@@ -1,0 +1,46 @@
+1. SELECT productvendor , COUNT(*) as total
+FROM `products`
+GROUP by productvendor
+
+2.  SELECT status , COUNT(*) as total
+from `orders`
+GROUP by status
+
+3. SELECT salesrepemployeenumber , AVG(creditlimit) as total
+from customers 
+GROUP by salesrepemployeenumber
+
+4.  select country , COUNT(*) , min(creditlimit), max(creditlimit)
+from `customers`
+GROUP by country
+
+5.select officecode , COUNT(*)
+from employees
+GROUP by officeCode
+
+6. SELECT `customerNumber` ,avg(amount) as average
+FROM `payments` 
+GROUP by `customerNumber`
+order by average desc
+
+7. select productvendor , avg(buyprice) as average
+from products
+GROUP BY productvendor
+
+8.  select salesrepemployeenumber , COUNT(*)
+from customers
+GROUP by salesrepemployeenumber
+
+9.SELECT orderdate , COUNT(*) as total   
+from orders
+GROUP by orderdate
+order by total DESC
+limit 1;
+
+10. 
+SELECT productscale , COUNT(*)
+from products
+GROUP by productscale
+
+
+
