@@ -1,0 +1,33 @@
+1. create database school
+
+2.create table `teachers_backup` (
+    id int not null AUTO_INCREMENT primary key,
+    teachername  varchar(50) not null,
+    email varchar(70) not null ,
+    phone varchar(15) );
+
+3.
+4. create table study_hours as 
+SELECT * from `study_hours_extended`
+WHERE classes in (1,2,3,4,5)
+
+5. alter table `lecturers` 
+add meil varchar(70) not null
+
+6. alter table lecturers 
+MODIFY lecturerName varchar(80) not null
+
+7. alter table classes
+drop status 
+
+
+8. drop table `teachers_backup`
+
+9. create table student AS
+SELECT * from students_temp
+
+10. alter TABLE students
+drop personlid
+
+11.  alter TABLE students
+add age int(2)
